@@ -63,9 +63,6 @@ abstract class DB_Abstract
      * @return bool|int
      */
     abstract public function deleteIJ($bookid, $authorid);
-
-
-    /** @var null resource */
-    protected $connection = NULL;
-
+    
+    
 }
